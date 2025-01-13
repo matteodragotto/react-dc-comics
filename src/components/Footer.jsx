@@ -1,6 +1,17 @@
 const Footer = () => {
   return (
     <footer>
+      <section id="navigation">
+        <nav>
+          <ul className="d-flex m-0">
+            <li><a href="#">Digital Comics</a></li>
+            <li><a href="#">DC Merchandise</a></li>
+            <li><a href="#">Subscription</a></li>
+            <li><a href="#">Comic Shop Locator</a></li>
+            <li><a href="#">DC Power Visa</a></li>
+          </ul>
+        </nav>
+      </section>
       <section id="footer-top">
         <nav>
           <ul>
