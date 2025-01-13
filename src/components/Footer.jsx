@@ -68,6 +68,9 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
+        <div className="logo">
+          <img src="/img/dc-logo-bg.png" alt="logo" />
+        </div>
       </section>
       <section id="footer-bottom">
         <div className="container d-flex justify-content-between">

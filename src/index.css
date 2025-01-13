@@ -7,7 +7,6 @@
 body {
   background-color: black;
   font-family: "Open Sans", serif;
-  padding: 20px 0;
 }
 
 ul {
@@ -85,6 +84,14 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 400px;
+  position: relative;
+  z-index: -1;
+}
+
+#footer-top .logo {
+  position: absolute;
+  bottom: -20%;
+  right: 18%;
 }
 
 #footer-top h5 {
