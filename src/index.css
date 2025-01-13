@@ -23,6 +23,7 @@ a {
   margin: 0 auto;
 }
 
+
 /* Header */
 header {
   background-color: white;
@@ -51,6 +52,9 @@ header a {
 main {
   background-color: black;
   height: 130px;
+  font-weight: bolder;
+  font-variation-settings:
+    "wdth" 80;
 }
 
 #content {
@@ -61,6 +65,8 @@ main {
 
 #navigation {
   background-color: #0282F9;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 
 #navigation a {
@@ -71,4 +77,15 @@ main {
   background-image: url('/public/img/footer-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 400px;
+}
+
+#footer-top h5 {
+  color: white;
+  font-weight: bolder;
+}
+
+#footer-top a {
+  color: #87887C;
+  font-size: 0.7rem;
 }
