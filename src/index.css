@@ -69,6 +69,13 @@ main {
   text-transform: uppercase;
 }
 
+#navigation img {
+  width: 43px;
+  height: 55px;
+  margin: 10px;
+  object-fit: contain
+}
+
 #navigation a {
   color: white;
 }
@@ -88,4 +95,24 @@ main {
 #footer-top a {
   color: #87887C;
   font-size: 0.7rem;
+}
+
+#footer-bottom {
+  background-color: #303030;
+  padding: 45px 0;
+}
+
+.submit-button {
+  background-color: #303030;
+  color: white;
+  border: 2px solid #0282F9;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 13px 12px;
+}
+
+#footer-bottom li {
+  padding: 0 10px;
 }

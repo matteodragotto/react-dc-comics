@@ -5,11 +5,21 @@ const Footer = () => {
         <div className="container h-100 w-100">
           <nav>
             <ul className="d-flex m-0 justify-content-between p-5">
-              <li><a href="#">Digital Comics</a></li>
-              <li><a href="#">DC Merchandise</a></li>
-              <li><a href="#">Subscription</a></li>
-              <li><a href="#">Comic Shop Locator</a></li>
-              <li><a href="#">DC Power Visa</a></li>
+              <li>
+                <img src="/img/buy-comics-digital-comics.png" alt="digital-comics" />
+                <a href="#">Digital Comics</a></li>
+              <li>
+                <img src="/img/buy-comics-merchandise.png" alt="merchandise" />
+                <a href="#">DC Merchandise</a></li>
+              <li>
+                <img src="/img/buy-comics-subscriptions.png" alt="shop-locator" />
+                <a href="#">Subscription</a></li>
+              <li>
+                <img src="/img/buy-comics-shop-locator.png" alt="subscriptions" />
+                <a href="#">Comic Shop Locator</a></li>
+              <li>
+                <img src="/img/buy-dc-power-visa.svg" alt="power-visa" />
+                <a href="#">DC Power Visa</a></li>
             </ul>
           </nav>
         </div>
@@ -60,16 +70,20 @@ const Footer = () => {
         </div>
       </section>
       <section id="footer-bottom">
-        <button></button>
-        <nav>
-          <ul>
-            <li><a href="#">FOLLOW US</a></li>
-            <li><a href="#">FOLLOW US</a></li>
-            <li><a href="#">FOLLOW US</a></li>
-            <li><a href="#">FOLLOW US</a></li>
-            <li><a href="#">FOLLOW US</a></li>
-          </ul>
-        </nav>
+        <div className="container d-flex justify-content-between">
+          <a class="submit-button" href="#" role="button">SIGN-UP NOW!</a>
+
+          <nav>
+            <ul className="d-flex align-items-center">
+              <li><a href="#" className="fs-5 fw-bolder">FOLLOW US</a></li>
+              <li><a href="#"><img src="/img/footer-facebook.png" alt="Facebook" /></a></li>
+              <li><a href="#"><img src="/img/footer-twitter.png" alt="Twitter" /></a></li>
+              <li><a href="#"><img src="/img/footer-youtube.png" alt="Youtube" /></a></li>
+              <li><a href="#"><img src="/img/footer-pinterest.png" alt="Pinterest" /></a></li>
+              <li><a href="#"><img src="/img/footer-periscope.png" alt="Periscope" /></a></li>
+            </ul>
+          </nav>
+        </div>
       </section>
     </footer>
   )
