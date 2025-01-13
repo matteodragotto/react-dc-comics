@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="p-3">
+    <header>
       <div className="container d-flex justify-content-between align-items-center">
         <figure className="m-0">
           <img src="/img/dc-logo.png" alt="dc-logo" />
@@ -8,7 +8,7 @@ const Header = () => {
         <nav>
           <ul className="d-flex m-0">
             <li><a href="#">Characters</a></li>
-            <li><a href="#">Comics</a></li>
+            <li><a href="#" className="active">Comics</a></li>
             <li><a href="#">Movies</a></li>
             <li><a href="#">Tv</a></li>
             <li><a href="#">Games</a></li>
