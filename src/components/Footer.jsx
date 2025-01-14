@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="container d-flex h-100 p-4">
           <nav className="d-flex flex-column">
             <ul>
-              <h5>DC Comics</h5>
+              <h5>DC COMICS</h5>
               <li><a href="#">Characters</a></li>
               <li><a href="#">Comics</a></li>
               <li><a href="#">Movies</a></li>
