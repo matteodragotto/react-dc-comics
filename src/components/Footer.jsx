@@ -1,10 +1,11 @@
 import Navigation from "./partial/Navigation"
+import { buyComicsMenu } from "../../data/menuData"
 
 const Footer = (props) => {
   const { menus } = props
   return (
     <footer>
-      <Navigation />
+      <Navigation menu={buyComicsMenu} />
       <section id="footer-top">
         <div className="container d-flex h-100 p-4">
           <nav className="d-flex flex-column">

@@ -55,7 +55,18 @@ const footerMenu = {
 
 }
 
+const buyComicsMenu = [
+  { id: 1, img: "/img/buy-comics-digital-comics.png", alt: "digital-comics", url: "#", text: "Digital Comics" },
+  { id: 2, img: "/img/buy-comics-merchandise.png", alt: "merchandise", url: "#", text: "DC Merchandise" },
+  { id: 3, img: "/img/buy-comics-subscriptions.png", alt: "shop-locator", url: "#", text: "Subscription" },
+  { id: 4, img: "/img/buy-comics-shop-locator.png", alt: "subscriptions", url: "#", text: "Comic Shop Locator" },
+  { id: 5, img: "/img/buy-dc-power-visa.svg", alt: "power-visa", url: "#", text: "DC Power Visa" }
+];
+
+
+
 export {
   headerMenu,
-  footerMenu
+  footerMenu,
+  buyComicsMenu
 }
