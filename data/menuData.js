@@ -21,12 +21,10 @@ const footerMenu = {
     { id: 6, url: "#", text: "Videos" },
     { id: 7, url: "#", text: "News" }
   ],
-
   shopMenu: [
     { id: 1, url: "#", text: "Shop DC" },
     { id: 2, url: "#", text: "Shop DC Collectibles" }
   ],
-
   dcMenu: [
     { id: 1, url: "#", text: "Terms Of Use" },
     { id: 2, url: "#", text: "Privacy Policy" },
@@ -40,14 +38,21 @@ const footerMenu = {
     { id: 10, url: "#", text: "Shop Help" },
     { id: 11, url: "#", text: "Contact Us" }
   ],
-
   sitesMenu: [
     { id: 1, url: "#", text: "DC" },
     { id: 2, url: "#", text: "MAD Magazine" },
     { id: 3, url: "#", text: "DC Kids" },
     { id: 4, url: "#", text: "DC Universe" },
     { id: 5, url: "#", text: "DC Power Visa" }
+  ],
+  socialMediaMenu: [
+    { id: 1, url: "#", img: "/img/footer-facebook.png", alt: "Facebook" },
+    { id: 2, url: "#", img: "/img/footer-twitter.png", alt: "Twitter" },
+    { id: 3, url: "#", img: "/img/footer-youtube.png", alt: "Youtube" },
+    { id: 4, url: "#", img: "/img/footer-pinterest.png", alt: "Pinterest" },
+    { id: 5, url: "#", img: "/img/footer-periscope.png", alt: "Periscope" }
   ]
+
 }
 
 export {
