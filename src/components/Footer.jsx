@@ -1,4 +1,5 @@
-const Footer = () => {
+const Footer = (props) => {
+  const { menus } = props
   return (
     <footer>
       <section id="navigation">
@@ -29,42 +30,37 @@ const Footer = () => {
           <nav className="d-flex flex-column">
             <ul>
               <h5>DC COMICS</h5>
-              <li><a href="#">Characters</a></li>
-              <li><a href="#">Comics</a></li>
-              <li><a href="#">Movies</a></li>
-              <li><a href="#">Tv</a></li>
-              <li><a href="#">Games</a></li>
-              <li><a href="#">Videos</a></li>
-              <li><a href="#">News</a></li>
+              {menus.dcComicsMenu.map(item => (
+                <li key={`ab-${item.id}`}>
+                  <a href={item.url}>{item.text}</a>
+                </li>
+              ))}
             </ul>
             <ul>
               <h5>SHOP</h5>
-              <li><a href="#">Shop DC</a></li>
-              <li><a href="#">Shop DC Collectibles</a></li>
+              {menus.shopMenu.map(item => (
+                <li key={`ac-${item.id}`}>
+                  <a href={item.url}>{item.text}</a>
+                </li>
+              ))}
             </ul>
           </nav>
           <nav className="d-flex">
             <ul>
               <h5>DC</h5>
-              <li><a href="#">Terms Of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Ad Choices</a></li>
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Subscriptions</a></li>
-              <li><a href="#">Talent Workshops</a></li>
-              <li><a href="#">CPSC Certificates</a></li>
-              <li><a href="#">Ratings</a></li>
-              <li><a href="#">Shop Help</a></li>
-              <li><a href="#">Contact Us</a></li>
+              {menus.dcMenu.map(item => (
+                <li key={`ad-${item.id}`}>
+                  <a href={item.url}>{item.text}</a>
+                </li>
+              ))}
             </ul>
             <ul>
               <h5>SITES</h5>
-              <li><a href="#">DC</a></li>
-              <li><a href="#">MAD Magazine</a></li>
-              <li><a href="#">DC Kids</a></li>
-              <li><a href="#">DC Universe</a></li>
-              <li><a href="#">DC Power Visa</a></li>
+              {menus.sitesMenu.map(item => (
+                <li key={`af-${item.id}`}>
+                  <a href={item.url}>{item.text}</a>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>

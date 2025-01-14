@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Header menu={headerMenu} />
       <Main />
-      <Footer menu={footerMenu} />
+      <Footer menus={footerMenu} />
     </>
   )
 
