@@ -7,6 +7,7 @@
 body {
   background-color: black;
   font-family: "Open Sans", serif;
+  min-height: 100vh;
 }
 
 ul {
@@ -72,15 +73,66 @@ header .active {
 /* Main */
 main {
   background-color: #1C1C1C;
-  height: 130px;
   font-size: 1.2rem;
   font-weight: bolder;
   font-variation-settings:
     "wdth" 80;
 }
 
+#jumbotron {
+  background-image: url(/img/jumbotron.jpg);
+  height: 400px;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  background-color: #0282F9;
+  color: white;
+  width: 250px;
+  bottom: -35px;
+  left: 17%;
+
+  p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
 #content {
   height: 100%;
+  padding: 60px 0;
+}
+
+.card {
+  background-color: #1C1C1C;
+  color: white;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.image img {
+  width: 100%;
+  max-height: 185px;
+  object-fit: cover;
+  object-position: top
+}
+
+.btn-load {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.load {
+  background-color: #0282F9;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  border: 0;
+  padding: 10px 50px;
 }
 
 /* Footer */
@@ -107,8 +159,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  z-index: -1;
   padding: 20px;
+  z-index: -1;
 }
 
 #footer-top .logo {

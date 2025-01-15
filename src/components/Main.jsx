@@ -1,13 +1,22 @@
-const Main = () => {
+import CardList from "./partial/cardList"
+
+const Main = (props) => {
+
   return (
     <main>
-      <section id="content" className="d-flex align-items-center">
-        <div className="container d-flex align-items-center">
-          <h2 className="text-light">-- Content goes here --</h2>
+      <section id="jumbotron">
+        <div className="label">
+          <p>Current Series</p>
         </div>
-
       </section>
-    </main>
+      <section id="content" className="d-flex align-items-center">
+        <CardList />
+      </section>
+      <div className="container btn-load">
+        <button className="load">LOAD MORE</button>
+      </div>
+
+    </main >
   )
 }
 
